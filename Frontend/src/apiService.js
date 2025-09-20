@@ -28,7 +28,7 @@ const handleApiResponse = async (response) => {
 };
 
 export const apiService = (() => {
-    const API_BASE_URL = 'http://localhost:4051/api';
+    const API_BASE_URL = 'https://edusysv1.vercel.app/api';
     const financialCollections = new Set(['fees', 'salaries', 'expenses']);
 
     const getBaseUrlForCollection = (collection) => {

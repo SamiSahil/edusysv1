@@ -4,7 +4,7 @@ import { ui, currentUser, setCurrentUser } from './ui.js';
 import { showConfirmationModal } from './utils/helpers.js';
 import { initializeApp } from './main.js';
 
-const API_BASE_URL = 'http://localhost:4051/api';
+const API_BASE_URL = 'https://edusysv1.vercel.app/api';
 
 export function showLoginPage() {
     ui.loginPage.style.display = 'block';
